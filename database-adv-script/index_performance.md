@@ -57,7 +57,7 @@ After analysis, I found these columns are frequently used in `WHERE`, `JOIN`, `G
 
 ## 2. 🛠 SQL Index Commands — `database_index.sql`
 
-```sql
+``` sql
 -- 🧑 User Table Indexes
 CREATE INDEX idx_user_email ON "User"(email);
 CREATE INDEX idx_user_role ON "User"(role);
